@@ -1,0 +1,33 @@
+title: Go Fly Little Birdie Fly
+timezone: America/New_York
+url: http://goflylittlebirdiefly.review
+collections:
+  reviews:
+    title: Reviews
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: reviews
+  values:
+    permalink: "/:title/"
+    layout: review
+email: mail@goflylittlebirdiefly.review
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: /:categories/:title/

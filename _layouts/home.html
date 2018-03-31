@@ -1,0 +1,37 @@
+{% include _meta.html %}
+</head>
+
+<body>
+    <div class="home">
+        <header>
+
+          <div id="my-bird"></div>
+
+          <div class="sidebar">
+            <input id="search" type="text" placeholder="GFLBF" onfocus="this.placeholder = ''" onblur="this.placeholder = 'GFLBF'" />
+          </div>
+
+        </header>
+
+        <div class="clearer"></div>
+
+        <div class="content">
+
+          {% for review in site.reviews %}
+          <div class="item">
+            <h2><a href="{{ review.url }}">{{ review.title }}</a></h2>
+
+            <span class="rating">{{ review.rating }}</span>
+          </div>
+          {% endfor %}
+
+          <div class="clearer"></div>
+
+        </div>
+
+        <a href="what" class="what" id="button">?</a>
+    </div>
+
+    <div id="background-image"></div>
+</body>
+</html>

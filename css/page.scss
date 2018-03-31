@@ -1,0 +1,44 @@
+---
+---
+
+.page {
+  /* margin-top: 10px; */
+  padding: 15px;
+  max-width: 500px;
+  border-right: 1px solid #000;
+  height: 100vh;
+}
+
+.page img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.page h2 {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.page a {
+  color: #663366;
+  border-bottom: 1px solid #663366;
+  text-decoration: none;
+}
+
+a#source {
+  background-color: white;
+}
+
+@media (max-width: 500px) {
+  .page {
+    border: none;
+  }
+}
+
+a#my-bird {
+  width: 60px;
+  height: 80px;
+  margin-bottom: 20px;
+  border: none;
+}

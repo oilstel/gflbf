@@ -1,0 +1,88 @@
+---
+---
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+  font-size: 17px;
+}
+
+body, html {
+}
+
+.home, .page {
+  padding: 20px;
+}
+
+#background-image {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-image: url("../images/bird-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: .4;
+}​
+
+h2, p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+h2:first-child, p:first-child {
+  margin-top: 0;
+}
+
+.clearer {
+  clear: both;
+}
+
+.rating {
+  filter: grayscale(100%);
+}
+
+header {
+ display: flex;
+ flex-direction: row;
+}
+
+#my-bird {
+  background-image: url("../images/bird.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  display: block;
+  border-radius: 20px;
+  width: 180px;
+  height: 210px;
+  margin-right: 20px;
+  /* border: 5px solid #678191; */
+  cursor: pointer;
+}
+
+#my-bird:hover {
+  filter: contrast(70%);
+}
+
+a#button {
+  border: 1px solid #000;
+  padding: 10px;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#button:hover {
+  background: #fff;
+}

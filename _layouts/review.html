@@ -1,0 +1,28 @@
+{% include _meta.html %}
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <a href="/" id="my-bird"></a>
+    </header>
+
+    {% if page.is_what %}
+        {{ content }}
+    {% else %}
+
+    <h2>{{ page.title }} <a id="source" href="{{ page.source_url }}" target="_blank">↗</a></h2>
+
+      <p><span class="rating">{{ page.rating }}</span></p>
+
+      {{ content }}
+
+      <a id="button" href="{{ page.previous.url }}">❮</a>
+      <a id="button" href="{{ page.next.url }}">❯</a>
+    {% endif %}
+  </div>
+
+  <div id="background-image"></div>
+
+</body>
+</html>
