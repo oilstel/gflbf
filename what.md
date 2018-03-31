@@ -1,6 +1,3 @@
 ---
-layout: review
-is_what: true;
+layout: video
 ---
-
-Hello birdie.

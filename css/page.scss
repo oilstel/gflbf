@@ -27,7 +27,13 @@
 }
 
 a#source {
-  background-color: white;
+  // background-color: white;
+  color: #000;
+  border-bottom: 3px solid transparent;
+}
+
+a#source:hover {
+  border-bottom: 3px solid #678191;
 }
 
 @media (max-width: 500px) {

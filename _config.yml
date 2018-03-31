@@ -5,6 +5,9 @@ collections:
   reviews:
     title: Reviews
     output: true
+  video:
+    title: Video
+    output: true
 defaults:
 - scope:
     path: ''

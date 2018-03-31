@@ -17,8 +17,8 @@
 
       {{ content }}
 
-      <a id="button" href="{{ page.previous.url }}">❮</a>
-      <a id="button" href="{{ page.next.url }}">❯</a>
+      {% if page.next %}<a id="button" href="{{ page.next.url }}">❮</a>{% endif %}
+      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}
     {% endif %}
   </div>
 
