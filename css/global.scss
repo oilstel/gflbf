@@ -1,20 +1,30 @@
 ---
 ---
 
+$font-size: 26px;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
-  -webkit-font-smoothing: antialiased;
-  background-attachment: fixed;
-  font-size: 17px;
+@font-face {
+  font-family: 'contrastregular';
+  src: url('../fonts/contrast-webfont.eot');
+  src: url('../fonts/contrast-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/contrast-webfont.woff2') format('woff2'),
+       url('../fonts/contrast-webfont.woff') format('woff'),
+       url('../fonts/contrast-webfont.ttf') format('truetype'),
+       url('../fonts/contrast-webfont.svg#contrastregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-body, html {
+html {
+  font-family: "contrastregular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
 }
 
 .home, .page {
@@ -34,10 +44,17 @@ body, html {
   opacity: .4;
 }​
 
+.page h2, .content .item h2 {
+  margin-bottom: 15px;
+  font-size: $font-size;
+  font-weight: normal;
+}
+
 h2, p {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 17px;
+  font-size: $font-size;
+  font-weight: normal;
 }
 
 h2:first-child, p:first-child {
@@ -63,11 +80,11 @@ header {
   background-repeat: no-repeat;
   background-position: 100% 100%;
   display: block;
-  border-radius: 20px;
+  // border-radius: 20px;
   width: 180px;
   height: 210px;
   margin-right: 20px;
-  /* border: 5px solid #678191; */
+  // border: 1px solid #000;
   cursor: pointer;
 }
 

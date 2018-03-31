@@ -1,6 +1,8 @@
 ---
 ---
 
+$font-size: 21px;
+
 .home-wrapper {
   width: 100vw;
   height: 100vh;
@@ -28,12 +30,6 @@
   color: #000;
 }
 
-.content .item h2 {
-  margin-bottom: 15px;
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .content .item h2 a {
   border-bottom: 3px solid transparent;
   color: #000;
@@ -54,8 +50,9 @@
   width: 100%;
   border: none;
   padding: 20px;
-  font-size: 40px;
+  font-size: 44px;
   border: 1px solid #000;
+  font-family: 'contrastregular';
 }
 
 .sidebar input::placeholder {

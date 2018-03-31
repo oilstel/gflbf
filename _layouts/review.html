@@ -1,15 +1,13 @@
 {% include _meta.html %}
+
 </head>
 
 <body>
   <div class="page">
-    <header>
+    <div class="content">
+      <header>
       <a href="/" id="my-bird"></a>
     </header>
-
-    {% if page.is_what %}
-        {{ content }}
-    {% else %}
 
     <h2>{{ page.title }} <a id="source" href="{{ page.source_url }}" target="_blank">↗</a></h2>
 
@@ -18,8 +16,7 @@
       {{ content }}
 
       {% if page.next %}<a id="button" href="{{ page.next.url }}">❮</a>{% endif %}
-      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}
-    {% endif %}
+      {% if page.previous %}<a id="button" href="{{ page.previous.url }}">❯</a>{% endif %}</div>
   </div>
 
   <div id="background-image"></div>

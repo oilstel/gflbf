@@ -5,4 +5,4 @@ rating: '🐦🐦'
 source_url: 'http://wageforwork.com'
 ---
 
-Wage for work. Another day another penny. The last piece of pie is long gone. This new museum of work is only accessible against a thin veneer of charcoal or is it spray paint? It could be spray paint but this calculated medium never drips off the cursor. It’s perfect overspray instills an air of elitism. As I browse, I’m reminded of watching The Square, the worst movie ever made. I open a new tab and go to the Wayback Machine to make sure this website is the same Org I once knew. It’s 2018, all good Org websites must go.
+Wage for work. Another day another penny. The last piece of pie is long gone. This new museum of work is only accessible against a thin veneer of charcoal or is it spray paint? It could be spray paint but this calculated medium never drips off the cursor. I open a new tab and go to the Wayback Machine to make sure this website is the same [Org I once knew](https://web.archive.org/web/20130522162550/http://www.wageforwork.com/). It’s 2018, all good Org websites must go.
