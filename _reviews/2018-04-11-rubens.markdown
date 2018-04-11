@@ -1,0 +1,8 @@
+---
+title: rubens.anu.edu.au
+date: 2018-04-11 03:00:00 -05:00
+rating: '🐦🐦🐦🐦'
+source_url: 'http://rubens.anu.edu.au/htdocs/surveys/italren/renarch/index.html'
+---
+
+Where are these images from? A VHS? If so, whose? And why were they taken from there to here? The <h2> tag in the header is charming, the occasional repeated image is charming, the whole thing is charming. All the logic and grace of Alberti in a website. Would we use Facebook if it looked like this?
