@@ -5,4 +5,4 @@ rating: '🐦🐦🐦'
 source_url: 'http://treasurehoard.website/'
 ---
 
-Refreshing and freaky. Love the <title>
+Refreshing and freaky. Love the `<title>`
