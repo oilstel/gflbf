@@ -17,7 +17,7 @@
 
         <div class="content">
 
-          {% for review in site.reviews %}
+          {% for review in site.reviews reversed %}
           <div class="item">
             <h2><a href="{{ review.url }}">{{ review.title }}</a></h2>
 
