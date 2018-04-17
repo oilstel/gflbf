@@ -1,7 +1,7 @@
 ---
 title: realitybeach.org
 date: 2018-04-11 03:00:00 -05:00
-rating: '🐦🐦🐦🐦'
+rating: '🐦'
 source_url: 'http://realitybeach.org/'
 ---
 
